@@ -1,6 +1,8 @@
 # Patch for XCode 10.x and react-native 0.55
-This is specifically meant for use with `create-react-native-web-app`. The problem is caused by XCode changing their device list naming convention.  
+This is specifically meant for use with `create-react-native-web-app`.
 
+## The Problem
+The problem is caused by XCode changing their device list naming convention in version 10.x.
 
 **Before**: Something like `"iOS-12-2"`  
 
