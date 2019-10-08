@@ -17,8 +17,8 @@ You could just go into `myapp/node_modules/react-native/local-cli/runIOS/findMat
 1. `git clone https://github.com/closetothe/crnwa-xcode-patch`
 2. `npx create-react-native-web-app myapp`
 3. `mv crnwa-xcode-patch myapp && cd myapp/crnwa-xcode-patch`
-4. `sudo chmod +x patch.sh`
-5. `./patch.sh`
+4. `sudo chmod +x install.sh`
+5. `./install.sh`
 
 You can delete the `crnwa-patch` folder afterwards. I also recommend adding `--simulator="iPhone X"` to the end of your `ios` script in your `package.json`, since that version of `react-native` defaults to iPhone 6.
 
