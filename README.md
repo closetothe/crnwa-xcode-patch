@@ -14,9 +14,9 @@ You could just go into `myapp/node_modules/react-native/local-cli/runIOS/findMat
 
 ## Using the script
 
-1. `git clone https://github.com/closetothe/crnwa-patch`
+1. `git clone https://github.com/closetothe/crnwa-xcode-patch`
 2. `npx create-react-native-web-app myapp`
-3. `mv crnwa-patch myapp && cd myapp/crnwa-patch`
+3. `mv crnwa-xcode-patch myapp && cd myapp/crnwa-xcode-patch`
 4. `sudo chmod +x patch.sh`
 5. `./patch.sh`
 
